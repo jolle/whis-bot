@@ -1,3 +1,3 @@
 # whis-bot
 
-Automatic WHOIS server updater for [https://github.com/jolle/whis-data](whis-data). Used as a GCP Cloud Function.
+Automatic WHOIS server updater for [whis-data](https://github.com/jolle/whis-data). Used as a GCP Cloud Function.
