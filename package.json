@@ -1,0 +1,26 @@
+{
+  "name": "whis-bot",
+  "version": "1.0.0",
+  "main": "dist/function.js",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/logging-bunyan": "^4.2.2",
+    "@lifeomic/attempt": "^3.0.3",
+    "axios": "^0.27.2",
+    "bunyan": "^1.8.15",
+    "libnpmpublish": "^6.0.5",
+    "max-concurrency": "^2.0.0",
+    "tar-stream": "^3.0.0",
+    "whis": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.8",
+    "@types/libnpmpublish": "^4.0.3",
+    "@types/node": "^18.7.23",
+    "@types/tar-stream": "^2.2.2",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
